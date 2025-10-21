@@ -1,0 +1,10 @@
+# Netlify configuration for deploying Vite app
+# Build settings: use npm with legacy-peer-deps flag if needed in Netlify environment
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# If Netlify's install fails because of peer deps, set the following environment variable
+# in the Netlify site settings: NPM_FLAGS=--legacy-peer-deps
+# You can also set NODE_VERSION if needed, e.g. NODE_VERSION = "18"
