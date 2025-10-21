@@ -34,13 +34,13 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import CamCon from "./CamCon.png";
+import CamCon from "./Camcon.png";
 import resumeAnalyzer from "./resumeAnalyzer.png";
-import disasterReady from "./disasterReady.png";  
+import disasterReady from "./disasterReady.png";
 import codespirit from "./codespirit.jpg";
 import jobit from "./jobit.png";
 import link from "./link.png";
-import collegeportfolio from "./collegeportfolio.png";
+import collegeportfolio from "./collegePortfolio.png";
 import noor from "./noor.png";
 import tripguide from "./tripguide.png";
 
@@ -67,7 +67,7 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  link, 
+  link,
   disasterReady,
   typescript,
   threejs,
@@ -81,7 +81,7 @@ export {
   tripguide,
   python,
   java,
-  nginx,  
+  nginx,
   redis,
   ubuntu,
   postgresql,
