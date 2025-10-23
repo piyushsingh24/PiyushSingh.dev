@@ -38,6 +38,14 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+
+      <h1 className="bg-slate-800 inline-block px-6 py-2 rounded-xl mb-2">
+        <button>
+          <a href="/PiyushSinghDeveloper.pdf" download={"/PiyushSinghDeveloper.pdf"}> Download Cv</a>
+        </button>
+      </h1>
+
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>

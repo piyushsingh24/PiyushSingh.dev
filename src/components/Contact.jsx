@@ -69,6 +69,22 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        <h1 className="bg-slate-800 inline-block px-6 py-2 rounded-xl">
+          <button>
+            <a href="/PiyushSinghDeveloper.pdf" download={"/PiyushSinghDeveloper.pdf"}> Download Cv</a>
+          </button>
+        </h1> 
+
+{/* 
+        <div className="mt-2 border-2 bg-gray-200 rounded-xl Contact_animation px-1 py-3">
+          <span>
+            <a href="https://wa.me/qr/UMUJ4QTU5MHKP1"> Contact & Whatsapp ➡ 8851151976</a>
+            <a className="block" href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQqSxxsSrDbMtVrZSZvcstLpJPXlVlvqCXFqgKFjqRPGRxTrhdCwFJdNxwWDHlclmjlQG"> GMail ➡  Piyushsingh2706@gmail.com</a>
+            
+          </span>
+
+        </div> */}
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
